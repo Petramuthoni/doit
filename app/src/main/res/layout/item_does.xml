@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgitemdoes"
+    android:layout_marginBottom="20dp"
+    android:orientation="horizontal"
+    android:layout_height="100dp">
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titledoes"
+            android:layout_marginTop="19dp"
+            android:textSize="22sp"
+            android:textColor="#000C5D"
+            android:text="Buy whiskas"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descdoes"
+            android:layout_marginTop="19dp"
+            android:textSize="18sp"
+            android:textColor="#ADADAD"
+            android:text="Nearly market good to"
+           />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/datedoes"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            android:textColor="#F63EA5"
+            android:text="Tomorrow"
+           />
+
+
+    </LinearLayout>
+</LinearLayout>
